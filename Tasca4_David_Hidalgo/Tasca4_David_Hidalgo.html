@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasca 4</title>
+    <head>
+    <meta charset="UTE-8"/>
+    <meta name="description" content="Tasca 4"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="author" content="David Hidalgo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<table style="width: 50%;">
+    <tr>
+        <th colspan="2"><h2>Formulari reserva d'habitacions d'un Hotel</h2></th>
+    </tr>
+    <tr>
+        <td colspan="2">Siusplau empleni tots els camps indicats marcats amb *. (camps obligatoris)</td>
+    </tr>
+   <form>
+    <tr>
+        <td style="width: 30%;">Tipus de reserva:</td>
+        <td> <select name="Tipus de reserva">
+            <option value="1">Habitació Triple</option>
+            <option value="2">Habitació Doble</option>
+            <option value="3">Habitació Simple</option>
+        </select> 
+    </td>
+    </tr>
+    <tr>
+        <td> Número de persones<br>(1-10):</td>
+        <td> <input name="number_control" size="5" min="1" max="10" required="" value="1" type="number"> </td>
+    </tr>
+    <tr>
+        <td>Número d'habitacions (1-5):</td>
+        <td><input type="range" id="num_habitacions_id" min="1" max="5" value="1" oninput="num_habitacions_value_id.value = num_habitacions_id.value"> <output id="num_habitacions_value_id">1</output></td>
+    </tr>
+    <tr>
+        <td>Nom:*</td>
+        <td> <input type="text" name="nom" size="50" autofocus="autofocus" required=""> </td>
+    </tr>
+    <tr>
+        <td>Correu Electrònic:*</td>
+        <td><input name="correu" size="30" required="" type="email"></td>
+    </tr>
+    <tr>
+        <td>Data de Naixement:</td>
+        <td><input name="datahora" type="date"></td>
+    </tr>
+    <tr>
+        <td>Telèfon:*</td>
+        <td><input name="telefon" required="" type="tel"></td>
+    </tr>
+    <tr>
+        <td>Data d'arribada:*</td>
+        <td><input name="data_arribada" required="" type="date"></td>
+    </tr>
+    <tr>
+        <td>Data de sortida:*</td>
+        <td><input name="data_sortida" required="" type="date"></td>
+    </tr>
+    <tr>
+        <td>Color preferit:</td>
+        <td><input type="color" name="color_preferit"></td>
+    </tr>
+    <tr>
+        <td>Observacions:</td>
+        <td><textarea name="Observacions" cols="35" rows="8"></textarea></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;" colspan="2">
+            <input value="Guardar" type="submit">
+            <input value="Borrar"  type="reset"></td>
+    </tr>
+</form>
+</table>
+
+    <p> Tipus de reserva:
+        <select name="Tipus de reserva">
+            <option value="1">Habitació Triple</option>
+            <option value="2">Habitació Doble</option>
+            <option value="3">Habitació Simple</option>
+        </select>   
+        <br>
+
+        Número de persones (min 1, máx 10):
+        <input name="number_control" size="5" min="1" max="10" required="" value="1" type="number"> <br>
+
+        Número d'habitacions (min 1, max 5):
+        <input type="range" id="num_habitacions_id" min="1" max="5" value="1" oninput="num_habitacions_value_id.value = num_habitacions_id.value"> <output id="num_habitacions_value_id">1</output> <br>
+        
+        Nom:* <input type="text" name="nom" size="50" autofocus="autofocus" required=""> <br>
+        Correu Electrònic:* <input name="correu" size="30" required="" type="email"> <br>
+        Data de Naixement: <input name="datahora" type="date"> <br>
+        Telèfon:* <input name="telefon" required="" type="tel"> <br>
+        Data d'arribada:* <input name="data_arribada" required="" type="date"> <br>
+        Data de sortida:* <input name="data_sortida" required="" type="date"> <br>
+        Color preferit: <input type="color" name="color_preferit"> <br>
+        Carnet de coche: <input type="checkbox" name="coche"> <br>
+        Foto de carnet: <input type="file" name="foto_carnet"> <br>
+        DNI: <input type="password" name="dni"><br>
+        Que prefereixes? <br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label> 
+        <br>
+        <button type="button">Fes-me clic</button> <br>
+
+        Observacions:<br>
+        <textarea name="Observacions" cols="35" rows="8"></textarea><br>
+    </p>
+    <p style="text-align:center;">
+        <input value="Enviar" type="submit">
+        <input value="Reset"  type="reset">
+    </p>
+</form>
+</html>
