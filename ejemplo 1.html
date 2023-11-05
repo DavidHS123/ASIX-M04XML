@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        .header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        .invoice-details {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        
+        .invoice-details div {
+            flex: 1;
+        }
+        
+        .invoice-items {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .invoice-items th, .invoice-items td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .invoice-items th {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .invoice-items {
+                font-size: 14px;
+            }
+            
+            .invoice-details {
+                flex-direction: column;
+            }
+            
+            .invoice-details div {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Factura</h1>
+        </div>
+        <div class="invoice-details">
+            <div>
+                <h3>Información del cliente</h3>
+                <p>Nombre del cliente: Juan Pérez</p>
+                <p>Dirección: Calle Principal, 123</p>
+                <p>Ciudad: Ciudad de Ejemplo</p>
+            </div>
+            <div>
+                <h3>Detalles de la factura</h3>
+                <p>Número de factura: 001</p>
+                <p>Fecha de emisión: 03/11/2023</p>
+            </div>
+        </div>
+        <table class="invoice-items">
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>2</td>
+                    <td>$20.00</td>
+                    <td>$40.00</td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td>1</td>
+                    <td>$30.00</td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>Producto 3</td>
+                    <td>3</td>
+                    <td>$15.00</td>
+                    <td>$45.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
