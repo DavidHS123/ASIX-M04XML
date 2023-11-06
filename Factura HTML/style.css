@@ -1,43 +1,78 @@
+@font-face {
+    font-family: FuenteFactura;
+    src: url(FreeSans.ttf);
+}
+h1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
 body{
     margin-left: 50px;
     margin-right: 50px;
+    font-family: FuenteFactura;
 }
 .logo{
     flex: 0.6;
 }
 .dadesFactura {
-    justify-content: flex-end;
+    flex: 1;
 }
 .importFactura {
     width: 100%;
-    border: 2px solid red;
+    border: 2px solid rgb(156, 104, 112);
 }
 
 .dadesClients{
-margin: 50px;
-flex: 1;
+    margin-left: 50px;
+    flex: 1;
 
 }
 .resumenFactura{
-flex: 0.5;
+    flex: 1;
 }
 .tabla{
-    border: 2px solid red;
+    border: 2px solid rgb(156, 104, 112);
 }
 .dadesContracte{
-
+    border: 2px solid rgb(156, 104, 112);
+    font-size: 20px;
 }
 .infoConsum{
-
+    flex: 1;
 }
 .destiImport{
-
+    flex: 1;
 }
 .dadesPagament{
-
+    border: 2px solid rgb(156, 104, 112);
+}
+.flex{
+    flex: 1;
+    border: 2px solid rgb(156, 104, 112);
+    margin-right: 20px;
+    padding: 10px;
+}
+.lectura{
+    flex: 1;
+}
+.consum{
+    flex: 1;
+}
+.centrar{
+    text-align: center;
 }
 .row{
     display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 10px;
 }
 
 
