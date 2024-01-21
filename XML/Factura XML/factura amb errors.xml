@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factura.xsd">
-    <numfactura>1234352135</numfactura>
+    <numfactura>ABC</numfactura> <!-- Error: numfactura ha de ser de tipus xs:integer -->
     <data>2023-12-15</data>
     <logo>http://exemple.com/logo.png</logo>
     
-    <dadesemissor cif="A12345678">
+    <dadesemissor cif="INVALID_CIF"> <!-- Error: No compleix el patró de CIF -->
         <nom>Empresa ABC</nom>
         <cognom>Cognom Emissor</cognom>
         <adreça>
             <carrer>Carrer Receptor</carrer>
             <numero>456</numero>
-            <pis>Pis</pis>
-            <porta>5</porta>
-            <cp>17000</cp>
+            <cp>INVALID_CP</cp> <!-- Error: cp ha de ser de tipus xs:integer -->
             <ciutat>Girona</ciutat>
         </adreça>
         <telefon>123456789</telefon>
         <email>emissor@exemple.com</email>
     </dadesemissor>
     
-    <dadesreceptor nif="12345678A">
+    <dadesreceptor nif="1234"> <!-- Error: No compleix el patró de NIF -->
         <nom>Client XYZ</nom>
-        <cognom>Cognom Receptor</cognom>
+        <cognom>Cognom Receptor que supera la longitud màxima permesa</cognom> <!-- Error: Cognom no ha de superar els 50 caràcters -->
         <adreça>
             <carrer>Carrer Receptor</carrer>
             <numero>456</numero>
@@ -40,32 +38,9 @@
     <periodesconsum>
         Febrer 2023
     </periodesconsum>
-    <periodesconsum>
-        Març 2023
-    </periodesconsum>
-    <periodesconsum>
-        Abril 2023
-    </periodesconsum>
     
     <missagepublicitari>Missatge publicitari aquí...</missagepublicitari>
     
-    <!-- Comptat 
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Comptat" />
-    -->
-    <!-- Transferència
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Transferència">
-        <iban>CAT1234567890123456789</iban>
-    </pagament>
-    -->
-    <!-- Targeta -->
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Targeta">
-        <targeta>
-            <numero>1234 5678 9012 3456</numero>
-            <nom>Nom Targeta</nom>
-            <cognom>Cognom Targeta</cognom>
-            <datacaducitat>12/25</datacaducitat>
-            <cvv>123</cvv>
-        </targeta>
-    </pagament>
+    <pagament quantitat="ABC" estat="pagada" metodopagament="Comptat" /> <!-- Error: quantitat ha de ser de tipus xs:decimal -->
     
 </factura>

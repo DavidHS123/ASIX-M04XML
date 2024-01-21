@@ -13,16 +13,22 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="CognomType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:element name="factura">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="numfactura" type="xs:string" />
+                <xs:element name="numfactura" type="xs:integer" />
                 <xs:element name="data" type="xs:date" />
                 <xs:element name="logo" type="xs:string" />
                 <xs:element name="dadesemissor" type="DadesEmissorType" />
                 <xs:element name="dadesreceptor" type="DadesReceptorType" />
                 <xs:element name="resumfactura" type="xs:string" />
-                <xs:element name="periodesconsum" type="xs:string" minOccurs="4" maxOccurs="unbounded" />
+                <xs:element name="periodesconsum" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
                 <xs:element name="missagepublicitari">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -30,8 +36,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element name="productes" type="ProductesType" />
-                <xs:element name="resum" type="ResumType" />
+                <xs:element name="pagament" type="PagamentType" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -39,26 +44,9 @@
     <xs:complexType name="DadesEmissorType">
         <xs:sequence>
             <xs:element name="nom" type="xs:string" />
-            <xs:element name="cognom" type="xs:string" />
+            <xs:element name="cognom" type="CognomType" minOccurs="1" maxOccurs="2" />           
             <xs:element name="adreça" type="AdreçaType" />
-            <xs:element name="telefon" type="xs:string" minOccurs="0" />
-            <xs:element name="email">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-        </xs:sequence>
-        <xs:attribute name="nif" type="NIFType" />
-    </xs:complexType>
-
-    <xs:complexType name="DadesReceptorType">
-        <xs:sequence>
-            <xs:element name="nom" type="xs:string" />
-            <xs:element name="cognom" type="xs:string" />
-            <xs:element name="adreça" type="AdreçaType" />
-            <xs:element name="telefon" type="xs:string" minOccurs="0" />
+            <xs:element name="telefon" type="TelefonType" minOccurs="0" />
             <xs:element name="email">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -68,6 +56,23 @@
             </xs:element>
         </xs:sequence>
         <xs:attribute name="cif" type="CIFType" />
+    </xs:complexType>
+
+    <xs:complexType name="DadesReceptorType">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string" />
+            <xs:element name="cognom" type="CognomType" minOccurs="1" maxOccurs="2" />
+            <xs:element name="adreça" type="AdreçaType" />
+            <xs:element name="telefon" type="TelefonType" minOccurs="0" />
+            <xs:element name="email">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="nif" type="NIFType" />
     </xs:complexType>
 
     <xs:complexType name="AdreçaType">
@@ -81,21 +86,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="ProductesType">
-        <xs:sequence>
-            <xs:element name="producte" type="ProducteType" minOccurs="1" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="ProducteType">
-        <xs:sequence>
-            <xs:element name="nom" type="xs:string" />
-            <xs:element name="quantitat" type="xs:decimal" />
-            <xs:element name="preu" type="xs:decimal" />
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="ResumType">
+    <xs:complexType name="PagamentType">
         <xs:sequence>
             <xs:element name="iban" type="xs:string" minOccurs="0" />
             <xs:element name="targeta" type="TargetaType" minOccurs="0" />
@@ -127,6 +118,12 @@
             <xs:enumeration value="Comptat" />
             <xs:enumeration value="Transferència" />
             <xs:enumeration value="Targeta" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TelefonType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]*" />
         </xs:restriction>
     </xs:simpleType>
 
