@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="note.xsd">
+<to>Joan</to>
+<from>Pere</from>
+<heading>Cap¢alera</heading>
+<body>Cos del missatge</body>
+<data>14-11-2023</data>
+<telefon>999 99 99 99</telefon>
+</note>

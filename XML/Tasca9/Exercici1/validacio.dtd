@@ -1,0 +1,23 @@
+<!ELEMENT persones (persona+)>
+<!ELEMENT persona (nif, nom, cognom1, cognom2, adreca, datanaixement, correu*, telefon*, foto?, observacions*, contacte)>
+    <!ATTLIST persona estatcivil (solter | casat | soltera | casada) #REQUIRED
+                      situaciolaboral (actiu | aturat | activa | aturada) #IMPLIED>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom1 (#PCDATA)>
+<!ELEMENT cognom2 (#PCDATA)>
+<!ELEMENT adreca (carrer, num, poblacio)>
+    <!ATTLIST adreca tipusadreca (domicili | feina) "domicili">
+<!ELEMENT carrer (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT poblacio (#PCDATA)>
+<!ELEMENT datanaixement (any, mes, dia)>
+    <!ELEMENT any (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT dia (#PCDATA)>
+<!ELEMENT correu (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+    <!ATTLIST telefon tipus (mobil | fix) #IMPLIED>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT observacions (#PCDATA)>
+<!ELEMENT contacte (telefon*, correu*)>

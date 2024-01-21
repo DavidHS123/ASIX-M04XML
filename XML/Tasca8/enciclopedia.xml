@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- standalone="no" indica que requereix d'un DTD o XML Schema-->
+<!DOCTYPE enciclopedia SYSTEM "enciclopedia.dtd">
+<enciclopedia>
+    <persona datanaixement="08-01-1942" sexe="H">
+        <nom>Stephen</nom>
+        <cognom>HAWKING</cognom>
+        <adreca>
+            <carrer>carrer</carrer>
+            <num>123</num>
+            <poblacio>poblacio</poblacio>
+        </adreca>
+        <publicacio>Una breu historia del temps</publicacio>
+    </persona>
+    <persona datanaixement="13-07-1932" sexe="H">
+        <nom>Hubert</nom>
+        <cognom>HAWKING</cognom>
+        <adreca>
+            <carrer>carrer</carrer>
+            <num>123</num>
+            <poblacio>poblacio</poblacio>
+        </adreca>
+        <publicacio>L'Univers explicat als infants</publicacio>
+        <publicacio>L'evolucio cosmica</publicacio>
+        <publicacio>Pols d'estrelles</publicacio>
+    </persona>
+    <persona datanaixement="14-03-1879" sexe="H">
+        <nom>Albert</nom>
+        <cognom>Einstein</cognom>
+        <adreca>
+            <carrer>carrer</carrer>
+            <num>123</num>
+            <poblacio>poblacio</poblacio>
+        </adreca>
+        <publicacio>Les ones gravitacionals</publicacio>
+        <publicacio>Sobre la teoria cuantica de la llum</publicacio>
+    </persona>
+    <persona datanaixement="07-11-1867" sexe="F">
+        <nom>Marie</nom>
+        <cognom>CURIE</cognom>
+        <adreca>
+            <carrer>carrer</carrer>
+            <num>123</num>
+            <poblacio>poblacio</poblacio>
+        </adreca>
+        <publicacio>Tractat de radioactivitat</publicacio>
+    </persona>
+</enciclopedia>

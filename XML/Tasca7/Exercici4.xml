@@ -1,0 +1,52 @@
+<biblioteca>
+    <seccio nom="ficcio">
+        <llibre>
+            <ISBN>XXXXXXXXX</ISBN>
+            <titol>Titol del llibre</titol>
+            <autors>
+                <persona>
+                    <NIF>XXXXXXXXX</NIF>
+                    <nom>Autor1</nom>
+                </persona>
+                <persona>
+                    <NIF>XXXXXXXXX</NIF>
+                    <nom>Autor2</nom>
+                </persona>
+            </autors>
+            <editorial>
+                <nom>Editorial</nom>
+                <adreca>
+                    <carrer>Carrer de l'editorial</carrer>
+                    <num>20</num>
+                    <poblacio>Ciutat</poblacio>
+                </adreca>
+            </editorial>
+            <anyEdicio>2023</anyEdicio>
+        </llibre>
+    </seccio>
+    <seccio nom="novela">
+        <llibre>
+            <ISBN>XXXXXXXXX</ISBN>
+            <titol>Titol del llibre2</titol>
+            <autors>
+                <persona>
+                    <NIF>XXXXXXXXX</NIF>
+                    <nom>Autor1</nom>
+                </persona>
+                <persona>
+                    <NIF>XXXXXXXXX</NIF>
+                    <nom>Autor2</nom>
+                </persona>
+            </autors>
+            <editorial>
+                <nom>Editorial</nom>
+                <adreca>
+                    <carrer>Carrer de l'editorial</carrer>
+                    <num>20</num>
+                    <poblacio>Ciutat</poblacio>
+                </adreca>
+            </editorial>
+            <anyEdicio>2023</anyEdicio>
+        </llibre>
+    </seccio>
+</biblioteca>

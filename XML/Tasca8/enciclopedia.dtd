@@ -1,0 +1,10 @@
+<!ELEMENT enciclopedia (persona*)>
+<!ELEMENT persona (nom, cognom, adreca, publicacio+)>
+    <!ATTLIST persona datanaixement CDATA #IMPLIED sexe (H | F) "H">
+<!ELEMENT adreca (carrer, num, poblacio)>
+<!ELEMENT carrer (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT poblacio (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT publicacio (#PCDATA)>

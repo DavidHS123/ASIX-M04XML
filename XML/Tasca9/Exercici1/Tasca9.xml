@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persones SYSTEM "validacio.dtd">
+<persones>
+    <persona estatcivil="solter" situaciolaboral="aturat">
+        <nif>5211926735E</nif>
+        <nom>David</nom>
+        <cognom1>Hidalgo</cognom1>
+        <cognom2>Salinas</cognom2>
+        <adreca tipusadreca="domicili">
+            <carrer>Dolors Callol</carrer>
+            <num>5</num>
+            <poblacio>Breda</poblacio>
+        </adreca>
+        <datanaixement>
+            <any>2005</any>
+            <mes>desembre</mes>
+            <dia>20</dia>
+        </datanaixement>
+        <correu>correuexemple@exemple.com</correu>
+        <telefon>999 99 99 99</telefon>
+        <foto>www.urlfoto.cat</foto>
+        <observacions>Aqui especifiquem les observacions que vulguem.</observacions>
+        <contacte>
+            <telefon>999 99 99 99</telefon>
+            <correu>correucontacte@exemple.com</correu>
+        </contacte>
+    </persona>
+    <persona estatcivil="casada" situaciolaboral="actiu">
+        <nif>123456789A</nif>
+        <nom>Anna</nom>
+        <cognom1>Pérez</cognom1>
+        <cognom2>Martínez</cognom2>
+        <adreca tipusadreca="feina">
+            <carrer>Gran Via</carrer>
+            <num>123</num>
+            <poblacio>Barcelona</poblacio>
+        </adreca>
+        <datanaixement>
+            <any>1980</any>
+            <mes>gener</mes>
+            <dia>15</dia>
+        </datanaixement>
+        <correu>anna.perez@example.com</correu>
+        <telefon>555 55 55 55</telefon>
+        <observacions>És una persona molt amable.</observacions>
+        <contacte>
+            <telefon>555 55 55 55</telefon>
+            <correu>anna.contacte@example.com</correu>
+        </contacte>
+    </persona>
+</persones>

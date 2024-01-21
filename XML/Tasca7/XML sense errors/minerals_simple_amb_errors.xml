@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Taller_XML>
+  <!--  minerals -->
+    <minerals>
+        <Id>1</Id>
+        <nom>AERINITA</nom>
+        <duressa>3</duressa>
+        <densitat>2,5</densitat>
+        <composicio>Silicat de composició i estructura poc definides.</composicio>
+        <color>blau cel, blau fosc</color>
+        <grup>Silicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m60.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>2</Id>
+        <nom>ALBITA</nom>
+        <duressa>6</duressa>
+        <densitat>2,6</densitat>
+        <composicio>NaAlSi3O8</composicio>
+        <color>Blanc</color>
+        <grup>Tectosilicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m72.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>3</Id>
+        <nom>ALMANDINA</nom>
+        <duressa>6,5-7,5</duressa>
+        <densitat>4,2</densitat>
+        <composicio>Fe3Al2(SiO4)3</composicio>
+        <color>vermell fosc-vermell marró</color>
+        <grup>Neosilicat (granat)</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m76.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>4</Id>
+        <nom>ANAPAÏTA</nom>
+        <duressa>3,5</duressa>
+        <densitat>2,8</densitat>
+        <composicio>(Ca,Fe)3P2O8.4H2O</composicio>
+        <color>Verd-oliva</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m57.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>5</Id>
+        <nom>ANATASA</nom>
+        <duressa>5,5-6</duressa>
+        <densitat>3,9</densitat>
+        <composicio>TiO2</composicio>
+        <color>Blau, gris, vermell, blau-fosc</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m68.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>6</Id>
+        <nom>ANDALUSITA</nom>
+        <duressa>7,5</duressa>
+        <densitat>3,2</densitat>
+        <composicio>Al2(SiO4)O</composicio>
+        <color>gris, marró, rosa, verd</color>
+        <grup>Neosilicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m83.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>7</Id>
+        <nom>ANDRADITA</nom>
+        <duressa>6,5-7,5</duressa>
+        <densitat>3,9</densitat>
+        <composicio>Mg3Al2(SiO4)3</composicio>
+        <color>gris verdós-marró negrós</color>
+        <grup>Neosilicat (granat)</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m79.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>8</Id>
+        <nom>ANGLESITA</nom>
+        <duressa>3</duressa>
+        <densitat>6,3</densitat>
+        <composicio>PbSO4</composicio>
+        <color>incolor, blanc</color>
+        <grup>Sulfats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m50.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>9</Id>
+        <nom>ANKERITA</nom>
+        <duressa>3,5</duressa>
+        <densitat>3</densitat>
+        <composicio>CaFe(CO3)2</composicio>
+        <color>Gris, marrò clar, beige, rosa.</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m54.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>10</Id>
+        <nom>ARAGONITA</nom>
+        <duressa>3,5 a 4</duressa>
+        <densitat>2,95</densitat>
+        <composicio>Ca CO3</composicio>
+        <color>variat o incolor</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m55.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>11</Id>
+        <nom>ARGENT</nom>
+        <duressa>2,5-3</duressa>
+        <densitat>10,5</densitat>
+        <composicio>Ag</composicio>
+        <color>Blanc plata</color>
+        <grup>Nadius</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m11.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>12</Id>
+        <nom>ARGENTITA</nom>
+        <duressa>1-1,5</duressa>
+        <densitat>2,3</densitat>
+        <composicio>Ag2S</composicio>
+        <color>negre</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m03.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>13</Id>
+        <nom>ARSENOPIRITA</nom>
+        <duressa>5-5,5</duressa>
+        <densitat>6,1</densitat>
+        <composicio>FeAsS</composicio>
+        <color>gris argent</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m24.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>14</Id>
+        <nom>ATZURITA</nom>
+        <duressa>3,5 i 4</duressa>
+        <densitat>3,7 i 3,8</densitat>
+        <composicio>Cu3 (OH (CO)3 )2</composicio>
+        <color>Blau</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m40.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>15</Id>
+        <nom>AUGITA</nom>
+        <duressa>6</duressa>
+        <densitat>3,4</densitat>
+        <composicio>(CaMgFeTiAl)2 (SiAl)2 O6</composicio>
+        <color>Verd fosc i negre</color>
+        <grup>Inosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m65.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>16</Id>
+        <nom>AURICALCITA</nom>
+        <duressa>2,5</duressa>
+        <densitat>2,5</densitat>
+        <composicio>(Zn, Cu)5(CO3)2(OH)3</composicio>
+        <color>blau fort</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m36.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>17</Id>
+        <nom>BARITINA</nom>
+        <duressa>3 i 3,5</duressa>
+        <densitat>4,5</densitat>
+        <composicio>Ba SO4</composicio>
+        <color>blanc, transparent</color>
+        <grup>Sulfats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m51.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>18</Id>
+        <nom>BIOTITA</nom>
+        <duressa>2,5 a 3</duressa>
+        <densitat>2,8 a 3,2</densitat>
+        <composicio>[K(MgFeMn)3(OHF)2AlSi3O10]</composicio>
+        <color>Negre, verd fosc</color>
+        <grup>Filosilicats</grup>
+        <foto></foto>
+    </minerals>
+    <minerals>
+        <Id>19</Id>
+        <nom>BISMUT</nom>
+        <duressa>2-2,5</duressa>
+        <densitat>9,8</densitat>
+        <composicio>Bi</composicio>
+        <color>Blanc plata rosat</color>
+        <grup>Nadius</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m08.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>20</Id>
+        <nom>CALCITA</nom>
+        <duressa>2,5 i 3</duressa>
+        <densitat>2,71</densitat>
+        <composicio>Ca CO3</composicio>
+        <color>Blanc o incolor</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m49.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>21</Id>
+        <nom>CALCOPIRITA</nom>
+        <duressa>3,5 a 4</duressa>
+        <densitat>4,1 a 4,3</densitat>
+        <composicio>Cu Fe S2</composicio>
+        <color>Dorat, irisacions</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m16.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>22</Id>
+        <nom>CALCOSINA</nom>
+        <duressa>2,5-3</duressa>
+        <densitat>5,5-5,8</densitat>
+        <composicio>Cu2S</composicio>
+        <color>gris, plom, fosc</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m12.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>23</Id>
+        <nom>CAOLINITA</nom>
+        <duressa>1,5</duressa>
+        <densitat>2,6</densitat>
+        <composicio>Al4(Si4O10)(OH)8</composicio>
+        <color>blanc</color>
+        <grup>Fil.losilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m42.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>24</Id>
+        <nom>CASSITERITA</nom>
+        <duressa>7</duressa>
+        <densitat>7</densitat>
+        <composicio>SnO2</composicio>
+        <color>marró fosc</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m30.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>25</Id>
+        <nom>CELESTINA</nom>
+        <duressa>3-3,5</duressa>
+        <densitat>4</densitat>
+        <composicio>SrSO4</composicio>
+        <color>incolor, blanc, blau, vermell</color>
+        <grup>Sulfats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m52.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>26</Id>
+        <nom>CERUSITA</nom>
+        <duressa>3-3,5</duressa>
+        <densitat>6,5</densitat>
+        <composicio>PbCO3</composicio>
+        <color>incolor, blanc, blau</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m53.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>27</Id>
+        <nom>CERVANTINITA</nom>
+        <duressa>1-2,5</duressa>
+        <densitat>5</densitat>
+        <composicio>Sb2O3</composicio>
+        <color>gris</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m32.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>28</Id>
+        <nom>CINABRI</nom>
+        <duressa>2,5</duressa>
+        <densitat>8,09</densitat>
+        <composicio>Hg S</composicio>
+        <color>vermell intens</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m06.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>29</Id>
+        <nom>COURE</nom>
+        <duressa>2,5-3</duressa>
+        <densitat>8,9</densitat>
+        <composicio>Cu</composicio>
+        <color>vermell-marró</color>
+        <grup>Nadius</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m10.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>30</Id>
+        <nom>CRISOTIL.LE</nom>
+        <duressa>3</duressa>
+        <densitat>2,6</densitat>
+        <composicio>Mg6(Si4O10)(OH)8</composicio>
+        <color>Gris, verd ,vermell</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m56.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>31</Id>
+        <nom>CUPRITA</nom>
+        <duressa>3,5-4</duressa>
+        <densitat>6</densitat>
+        <composicio>Cu2O</composicio>
+        <color>vermell grisós, vermell marró</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m17.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>32</Id>
+        <nom>DIÒPSID</nom>
+        <duressa>5-6</duressa>
+        <densitat>3,2</densitat>
+        <composicio>CaMgSi2O6</composicio>
+        <color>Verd, verd-negre, gris</color>
+        <grup>Inosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m64.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>33</Id>
+        <nom>EPIDOT</nom>
+        <duressa>6-7</duressa>
+        <densitat>3,4</densitat>
+        <composicio>Ca2Al2O(OH)(Al, Fe)(Si2O7)</composicio>
+        <color>verd oliva-gris verdós</color>
+        <grup>Sorosilicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m74.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>34</Id>
+        <nom>ERITRITA</nom>
+        <duressa>1-2,5</duressa>
+        <densitat>3</densitat>
+        <composicio>Co3(AsO4)28H2O</composicio>
+        <color>vermell carmí</color>
+        <grup>Aseniurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m34.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>35</Id>
+        <nom>ESCORODITA</nom>
+        <duressa>3,5-4</duressa>
+        <densitat>3,2</densitat>
+        <composicio>Fe(AsO4).2H2O</composicio>
+        <color>verd grisós</color>
+        <grup>Arseniur</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m37.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>36</Id>
+        <nom>ESFALERITA (blenda)</nom>
+        <duressa>3,5 a 4</duressa>
+        <densitat>3,9 a 4,2</densitat>
+        <composicio>Zn S</composicio>
+        <color>Groc, vermell, marró</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m15.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>37</Id>
+        <nom>ESTIBINA</nom>
+        <duressa>2</duressa>
+        <densitat>4,5</densitat>
+        <composicio>Sb2S3</composicio>
+        <color>gris-plom</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m04.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>38</Id>
+        <nom>FLUORITA</nom>
+        <duressa>4</duressa>
+        <densitat>3,18</densitat>
+        <composicio>Ca F2</composicio>
+        <color>incolora, verda,</color>
+        <grup>Halurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m58.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>39</Id>
+        <nom>GAHNITA</nom>
+        <duressa>7,5-8</duressa>
+        <densitat>4-4,6</densitat>
+        <composicio>ZnAl2O4</composicio>
+        <color>Blau verdós</color>
+        <grup>Espinella</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m84.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>40</Id>
+        <nom>GALENA</nom>
+        <duressa>2,5 a 3</duressa>
+        <densitat>7,2 a 7,6</densitat>
+        <composicio>Pb S</composicio>
+        <color>Gris plom</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m09.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>41</Id>
+        <nom>GOETHITA</nom>
+        <duressa>4-5,5</duressa>
+        <densitat>4,2</densitat>
+        <composicio>FeO OH</composicio>
+        <color>Marró fosc, negre</color>
+        <grup>Hidròxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m21.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>42</Id>
+        <nom>GRANAT</nom>
+        <duressa>7 a 7,5</duressa>
+        <densitat>3,5 a 4,3</densitat>
+        <composicio></composicio>
+        <color>Variat</color>
+        <grup>Neosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m78.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>43</Id>
+        <nom>GREENOCKITA</nom>
+        <duressa>1-2,5</duressa>
+        <densitat>5</densitat>
+        <composicio>CdS</composicio>
+        <color>gris viu</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m33.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>44</Id>
+        <nom>GUIX</nom>
+        <duressa>1,5 - 2</duressa>
+        <densitat>2,3</densitat>
+        <composicio>CaSO4.2H2O</composicio>
+        <color>Blanc</color>
+        <grup>Sulfats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m43.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>45</Id>
+        <nom>HALITA</nom>
+        <duressa>2</duressa>
+        <densitat>2,1 a 2,2</densitat>
+        <composicio>Na Cl</composicio>
+        <color>Blanca o incolora</color>
+        <grup>Halogenurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m44.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>46</Id>
+        <nom>HEMATITES (Oligist)</nom>
+        <duressa>6,5</duressa>
+        <densitat>5,26</densitat>
+        <composicio>Fe2 O3</composicio>
+        <color>Castany negre roig</color>
+        <grup>Òxids</grup>
+        <foto></foto>
+    </minerals>
+    <minerals>
+        <Id>47</Id>
+        <nom>HEXAHIDRITA</nom>
+        <duressa>2-2,5</duressa>
+        <densitat>1,7</densitat>
+        <composicio>MgSO4.6H2O</composicio>
+        <color>blanc, gris, verd, vermell, rosa</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m47.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>48</Id>
+        <nom>HORNBLENDA</nom>
+        <duressa>5-6</duressa>
+        <densitat>3,1</densitat>
+        <composicio>Ca2Na(Mg,Fe)4(Al,Fe)((Si,Al)4O11)2(OH)2</composicio>
+        <color>Verd-fosc, marró i negre</color>
+        <grup>Inosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m67.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>49</Id>
+        <nom>MAGHEMITA</nom>
+        <duressa>4-5,5</duressa>
+        <densitat>4,7</densitat>
+        <composicio>Fe2O3</composicio>
+        <color>gris vermellós</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m22.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>50</Id>
+        <nom>MAGNETITA</nom>
+        <duressa>5,5 - 6</duressa>
+        <densitat>5,18</densitat>
+        <composicio>Fe (OH)3</composicio>
+        <color>Negre ferro</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m25.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>51</Id>
+        <nom>MALAQUITA</nom>
+        <duressa>3,5 a 4</duressa>
+        <densitat>3,9 a 4,03</densitat>
+        <composicio>Cu2 (OH)2 (CO3)2</composicio>
+        <color>verd-clar, fosc</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m39.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>52</Id>
+        <nom>MARCASSITA</nom>
+        <duressa>6-6,5</duressa>
+        <densitat>4,9</densitat>
+        <composicio>FeS2</composicio>
+        <color>gris llautó clar</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m28.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>53</Id>
+        <nom>MELANTERITA</nom>
+        <duresa>1-2</duresa>
+        <densitat>-</densitat>
+        <composicio>FeSO4 7H2O</composicio>
+        <color>gris verdós</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m31.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>54</Id>
+        <nom>MICROCLINA</nom>
+        <duressa>6</duressa>
+        <densitat>2,6</densitat>
+        <composicio>KAlSi3O8</composicio>
+        <color>Blanc, verd, blau cel</color>
+        <grup>tectosilicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m70.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>55</Id>
+        <nom>MIL.LERITA</nom>
+        <duressa>3-3,5</duressa>
+        <densitat>5,5</densitat>
+        <composicio>NiS</composicio>
+        <color>gris llautó clar</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m14.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>56</Id>
+        <nom>MOLIBDENITA</nom>
+        <duressa>1-1,5</duressa>
+        <densitat>3,5</densitat>
+        <composicio>MoS2</composicio>
+        <color>gris-plom</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m05.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>57</Id>
+        <nom>MOSCOVITA</nom>
+        <duressa>2,5</duressa>
+        <densitat>2,76 a 2,9</densitat>
+        <composicio>[KAl (OHF)2 AlSi3O10]</composicio>
+        <color>Blanc, gris, verdós</color>
+        <grup>Filosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m48.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>58</Id>
+        <nom>NIQUELINA</nom>
+        <duressa>5,5</duressa>
+        <densitat>7,8</densitat>
+        <composicio>NiAs</composicio>
+        <color>vermell coure pàl.lid</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m20.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>59</Id>
+        <nom>OLIVINA</nom>
+        <duressa>6,5 a 7</duressa>
+        <densitat>3,27 a 4,2</densitat>
+        <composicio>[(Mg Fe)2 Si O4]</composicio>
+        <color>verd oliva, gris</color>
+        <grup>Neossilicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m75.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>60</Id>
+        <nom>ÒPAL</nom>
+        <duressa>5-6</duressa>
+        <densitat>2,1</densitat>
+        <composicio>SiO2.nH2O</composicio>
+        <color>Incolor, blanc, groc</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m61.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>61</Id>
+        <nom>ORTOSA</nom>
+        <duressa>6 a 6,5</duressa>
+        <densitat>2,55 a 2,6</densitat>
+        <composicio>[K (Al Si3 O8)]</composicio>
+        <color>Variat, incolor</color>
+        <grup>Tectosilicats (feldespats)</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m71.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>62</Id>
+        <nom>PIRITA</nom>
+        <duressa>6 a 6,5</duressa>
+        <densitat>5,02</densitat>
+        <composicio>Fe S2</composicio>
+        <color>Groc</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m27.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>63</Id>
+        <nom>PIROLUSITA</nom>
+        <duressa>1-2,5</duressa>
+        <densitat>4,7</densitat>
+        <composicio>MnO2</composicio>
+        <color>negre</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m01.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>64</Id>
+        <nom>PIROMORFITA</nom>
+        <duressa>3,5-4</duressa>
+        <densitat>7</densitat>
+        <composicio>Pb5(PO4)3Cl</composicio>
+        <color>verd-gris, marró</color>
+        <grup>Fosfats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m38.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>65</Id>
+        <nom>PIROXMANGUITA</nom>
+        <duressa>5,5-6</duressa>
+        <densitat>3,9</densitat>
+        <composicio>(Mn,Fe)SiO3</composicio>
+        <color>Rosa, vermell, vermell i marró</color>
+        <grup>Inocilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m69.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>66</Id>
+        <nom>PIRROTINA</nom>
+        <duressa>4-4,5</duressa>
+        <densitat>4,6</densitat>
+        <composicio>FeS</composicio>
+        <color>Clar vermellós</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m19.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>67</Id>
+        <nom>PREHNITA</nom>
+        <duressa>6-6,5</duressa>
+        <densitat>2,9</densitat>
+        <composicio>Ca2Al(AlSiO3O10)(OH)2</composicio>
+        <color>verd clar-blau-gris</color>
+        <grup>Fil.losilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m73.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>68</Id>
+        <nom>QUARS</nom>
+        <duressa>7</duressa>
+        <densitat>2,65</densitat>
+        <composicio>Si O2</composicio>
+        <color>Molt variat</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m80.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>69</Id>
+        <nom>RÚTIL</nom>
+        <duressa>6-6,5</duressa>
+        <densitat>4,2</densitat>
+        <composicio>TiO2</composicio>
+        <color>marró negrós</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m29.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>70</Id>
+        <nom>SIDERITA</nom>
+        <duressa>3,5-4,5</duressa>
+        <densitat>3,9</densitat>
+        <composicio>FeCo3</composicio>
+        <color>Marró fosc</color>
+        <grup>Carbonats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m18.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>71</Id>
+        <nom>SILVINA</nom>
+        <duressa>2</duressa>
+        <densitat>1,99</densitat>
+        <composicio>Cl K</composicio>
+        <color>Blanc vermellós</color>
+        <grup>Halurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m45.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>72</Id>
+        <nom>SMITHSONITA</nom>
+        <duressa>4-5</duressa>
+        <densitat>4,4</densitat>
+        <composicio>ZnCO3</composicio>
+        <color>Blau,verd, blau, rosa, marró</color>
+        <grup></grup>
+        <foto>http://www.xtec.es/~fmas/mine/m59.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>73</Id>
+        <nom>SOFRE</nom>
+        <duressa>1,5 a 2</duressa>
+        <densitat>1,9 a 2,2</densitat>
+        <composicio>S (sofre, és un element)</composicio>
+        <color>Groc</color>
+        <grup>Elements</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m35.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>74</Id>
+        <nom>TALC</nom>
+        <duressa>1</duressa>
+        <densitat>2,82</densitat>
+        <composicio>Mg3 Si4 010 (OH)2</composicio>
+        <color>verd blanc gris</color>
+        <grup>Filosilicats</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m41.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>75</Id>
+        <nom>TETRAEDRITA</nom>
+        <duressa>3-3,5</duressa>
+        <densitat>4,9</densitat>
+        <composicio>Cu3SbS3,25</composicio>
+        <color>gris acer</color>
+        <grup>Sulfurs</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m13.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>76</Id>
+        <nom>TURMALINA</nom>
+        <duressa>7 a 7,5</duressa>
+        <densitat>3 a 3,25</densitat>
+        <composicio></composicio>
+        <color>Negre, verd, rosa</color>
+        <grup>Ciclosilicats</grup>
+        <foto></foto>
+    </minerals>
+    <minerals>
+        <Id>77</Id>
+        <nom>URANINITA</nom>
+        <duressa>5,5</duressa>
+        <densitat>7-10</densitat>
+        <composicio>UO2</composicio>
+        <color>negre</color>
+        <grup>Òxids</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m23.jpg</foto>
+    </minerals>
+    <minerals>
+        <Id>78</Id>
+        <nom>WOL.LASTONITA</nom>
+        <duressa>5-5,5</duressa>
+        <densitat>2,9</densitat>
+        <composicio>CaSiO3</composicio>
+        <color>Blanc, groc, gris</color>
+        <grup>Silicat</grup>
+        <foto>http://www.xtec.es/~fmas/mine/m63.jpg</foto>
+    </minerals>
+</Taller_XML>

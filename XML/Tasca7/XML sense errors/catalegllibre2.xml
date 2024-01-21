@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<cataleg>
+	<llibre id="bk101">
+		<autor>Garcia, Frederic</autor>
+		<titol>La formiga</titol>
+		<preu>14.95</preu>
+		<publicacio>2011-05-01</publicacio>
+		<descripcio>
+		En aquest llibre es descriuen amb detall les tasques
+		diàries que fan les formigues
+		</descripcio>
+	</llibre>
+	<llibre id="bk102">
+		<autor>Puigdevall Garcés, Marcel</autor>
+		<preu>5.95</preu>
+		<publicacio>2012-10-01</publicacio>
+		<descripcio>
+		S'hi descriuen les bondats alimentàries de coure
+		la carn a la brasa a més de truquets per incrementar-ne
+		el gust
+		</descripcio>
+	</llibre>
+	<llibre id="bk103">
+		<autor>Bisbe, Bernat</autor>
+		<titol>Diari d'un idiota</titol>
+		<preu>14.5</preu>
+		<publicacio>2012-07-30</publicacio>
+		<descripcio>
+		L'autor descriu en clau d'humor la vida de la gent
+		actual, que descriu genèricament com a "idiotes"
+		</descripcio>
+	</llibre>
+</cataleg>

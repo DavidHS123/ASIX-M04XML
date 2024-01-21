@@ -1,0 +1,20 @@
+<persona estatcivil="solter" situaciolaboral="actiu">
+    <NIF>XXXXXXXXX</NIF>
+    <nom>David</nom>
+    <cognom1>Hidalgo</cognom1>
+    <cognom2>Salinas</cognom2>
+    <adreca>
+        <carrer>Dolors Callol</carrer>
+        <num>5</num>
+        <poblacio>Breda</poblacio>
+    </adreca>
+    <dataNaixement>
+        <any>2005</any>
+        <mes>12</mes>
+        <dia>20</dia>
+    </dataNaixement>
+    <contacte>
+        <telefon>123456789</telefon>
+        <correu>david@exemple.com</correu>
+    </contacte>
+</persona>

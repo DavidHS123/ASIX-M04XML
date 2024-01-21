@@ -1,0 +1,23 @@
+<llibre>
+    <ISBN>XXXXXXXXX</ISBN>
+    <titol>Titol del llibre</titol>
+    <autors>
+        <persona>
+            <NIF>XXXXXXXXX</NIF>
+            <nom>Autor1</nom>
+        </persona>
+        <persona>
+            <NIF>XXXXXXXXX</NIF>
+            <nom>Autor2</nom>
+        </persona>
+    </autors>
+    <editorial>
+        <nom>Editorial XYZ</nom>
+        <adreca>
+            <carrer>Carrer de l'editorial</carrer>
+            <num>20</num>
+            <poblacio>Ciutat</poblacio>
+        </adreca>
+    </editorial>
+    <anyEdicio>2023</anyEdicio>
+</llibre>

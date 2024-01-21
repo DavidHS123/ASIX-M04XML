@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<enciclopedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="enciclopedia.xsd">
+<persona datanaixement="1942-01-08" sexe="I"> 
+    <nom>Stephen</nom> 
+    <cognom>HAWKING</cognom> 
+    <publicacio>Una breu historia del temps</publicacio>
+</persona>
+<persona datanaixement="1942-01-08" sexe="I">
+    <nom>Hubert</nom>
+    <cognom>HAWKING</cognom>
+        <publicacio>L'Univers explicat als infants</publicacio>
+        <publicacio>L'evolucio cosmica</publicacio>
+        <publicacio>Pols d'estrelles</publicacio>
+</persona>
+<persona datanaixement="1879-01-08" sexe="I">
+    <nom>Albert</nom>
+    <cognom>Einstein</cognom>
+    <publicacio>Les ones gravitacionals</publicacio>
+    <publicacio>Sobre la teoria cuantica de la llum</publicacio>
+</persona>
+<persona datanaixement="1867-01-08" sexe="D">
+    <nom>Marie</nom>
+    <cognom>CURIE</cognom>
+    <publicacio>Tractat de radioactivitat</publicacio>
+</persona>
+</enciclopedia>

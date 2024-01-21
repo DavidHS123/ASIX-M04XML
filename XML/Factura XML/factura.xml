@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factura.xsd">
+    <numfactura>123</numfactura>
+    <data>2023-12-15</data>
+    <logo>http://exemple.com/logo.png</logo>
+    
+    <dadesemissor nif="12345678A">
+        <nom>Empresa ABC</nom>
+        <cognom>Cognom Emissor</cognom>
+        <adreça>
+            <carrer>Carrer Emissor</carrer>
+            <numero>123</numero>
+            <poblacio>Població Emissor</poblacio>
+        </adreça>
+        <telefon>123456789</telefon>
+        <email>emissor@exemple.com</email>
+    </dadesemissor>
+    
+    <dadesreceptor cif="A12345678">
+        <nom>Client XYZ</nom>
+        <cognom>Cognom Receptor</cognom>
+        <adreça>
+            <carrer>Carrer Receptor</carrer>
+            <numero>456</numero>
+            <pis>Pis</pis>
+            <porta>5</porta>
+            <cp>17000</cp>
+            <ciutat>Girona</ciutat>
+        </adreça>
+        <telefon>987654321</telefon>
+        <email>receptor@exemple.com</email>
+    </dadesreceptor>
+    
+    <resumfactura>Resum de la factura...</resumfactura>
+    
+    <periodesconsum>
+        Gener 2023
+    </periodesconsum>
+    <periodesconsum>
+        Febrer 2023
+    </periodesconsum>
+    <periodesconsum>
+        Març 2023
+    </periodesconsum>
+    <periodesconsum>
+        Abril 2023
+    </periodesconsum>
+    
+    <missagepublicitari>Missatge publicitari aquí...</missagepublicitari>
+    
+    <productes>
+        <producte>
+            <nom>Producte 1</nom>
+            <quantitat>2</quantitat>
+            <preu>20.50</preu>
+        </producte>
+        <!-- Altres productes aquí -->
+    </productes>
+    
+    <resum quantitat="150.75" estat="pagada" metodopagament="Transferència">
+        <iban>CAT1234567890123456789</iban>
+    </resum>
+</factura>
