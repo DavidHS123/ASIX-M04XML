@@ -13,6 +13,9 @@ body{
     margin-right: 1.4%;
     font-family: FuenteFactura;
 }
+footer{
+    margin-top: auto;
+}
 .logo{
     flex: 0.4;
 }

@@ -8,8 +8,12 @@
             <final>11-07-2023</final>
         </periodeconsum>
         <dataconsum>24-07-2023</dataconsum>
-        <logo>http://exemple.com/logo.png</logo>
-        <import>130€</import>
+        <logo>
+            <src>logo.jpg</src>
+            <alt>logo</alt>
+            <class>img</class>
+        </logo>
+        <import>87,70€</import>
     </dadesfactura>
     
     <dadesemissor cif="A12345678">
@@ -27,46 +31,99 @@
         <email>emissor@exemple.com</email>
     </dadesemissor>
     
+    <resumfactura>
+        <potencia> 11,15€ </potencia>
+        <energia> 69,24€ </energia>
+        <impuesto> 0,44€ </impuesto>
+        <alquiler> 0,83€ </alquiler>
+        <otros> 1,86€ </otros>
+        <iva> 4,18€ </iva>
+        <total> 87,70€ </total>
+    </resumfactura>
+
     <dadesreceptor nif="12345678A">
-        <nom>Client XYZ</nom>
-        <cognom>Cognom Receptor</cognom>
+        <nom>David</nom>
+        <cognom>Hidalgo Salinas</cognom>
         <adreça>
-            <carrer>Carrer Receptor</carrer>
-            <numero>456</numero>
+            <carrer>Dolors Callol</carrer>
+            <numero>5</numero>
             <cp>17400</cp>
             <ciutat>Breda</ciutat>
+            <provincia>Girona</provincia>
         </adreça>
         <telefon>987654321</telefon>
         <email>receptor@exemple.com</email>
+        <barras>
+            <src>barras.png</src>
+            <alt>barras</alt>
+            <class>img</class>
+        </barras>
     </dadesreceptor>
+        
+    <dadescontracte>
+        <titular>NOMBREEJEMLO123</titular>
+        <direccio>DIRECCIONEJEMPLO</direccio>
+        <codigo>CODIGOEJEMPLO123</codigo>
+        <tipocontrato>PVPC - MERCADO REGULADO</tipocontrato>
+        <peaje>2.0TD</peaje>
+        <seguimiento>1</seguimiento>
+        <potenciapunta>4,400kW</potenciapunta>
+        <potenciavalle>4,400kW</potenciavalle>
+        <referencia_contrato_subministro>873456876435</referencia_contrato_subministro>
+        <referencia_contrato_acceso>93415965200</referencia_contrato_acceso>
+        <fecha_final_contrato>30-05-2023</fecha_final_contrato>
+        <n_contador>81273941</n_contador>
+    </dadescontracte>
+
+    <infoconsum>
+        <consumtotal>440,890kWh</consumtotal>
+        <grafico1>
+            <src>grafico1.png</src>
+            <alt>grafico1</alt>
+            <class>img</class>
+        </grafico1>
+        <consum_med_diario_periode>2,83 €</consum_med_diario_periode>
+        <consum_med_diario_14meses>3,45 €</consum_med_diario_14meses>
+        <consum_acum_año>5.117 kWh</consum_acum_año>
+        <pot_max_ult_año>
+            <p1>4,870 KW</p1>
+            <p3>4,680 kW</p3>
+        </pot_max_ult_año>
+        <fecha_info>10-06-2023</fecha_info>
+        <fecha_lectura>11-07-2023</fecha_lectura>
+        <lecturas>
+            <p1>13.654,27 kWh</p1>
+            <p2>2.722,49kWh</p2>
+            <p3>5,.844,03 kWh</p3>
+        </lecturas>
+        <consumo>
+            <p1>115,64 kWh</p1>
+            <p2>109,68 kWh</p2>
+            <p3>215,57 kWh</p3>
+        </consumo>
+        <media_consumidores>230,200 kWh</media_consumidores>
+    </infoconsum>
     
-    <resumfactura>Resum de la factura...</resumfactura>
-    
-    <periodesconsum>
-        Gener 2023
-    </periodesconsum>
-    <periodesconsum>
-        Febrer 2023
-    </periodesconsum>
-    <periodesconsum>
-        Març 2023
-    </periodesconsum>
-    <periodesconsum>
-        Abril 2023
-    </periodesconsum>
-    
+    <destiimport>
+        <grafico2>
+            <src>grafico2.png</src>
+            <alt>grafico2</alt>
+            <class>img</class>
+        </grafico2>
+    </destiimport>
+
     <missagepublicitari>Missatge publicitari aquí...</missagepublicitari>
     
     <!-- Comptat 
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Comptat" />
+    <dadespagament quantitat="150.75" estat="pagada" metodopagament="Comptat" />
     -->
     <!-- Transferència
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Transferència">
+    <dadespagament quantitat="150.75" estat="pagada" metodopagament="Transferència">
         <iban>CAT1234567890123456789</iban>
-    </pagament>
+    </dadespagament>
     -->
     <!-- Targeta -->
-    <pagament quantitat="150.75" estat="pagada" metodopagament="Targeta">
+    <dadespagament quantitat="150.75" estat="pagada" metodopagament="Targeta">
         <targeta>
             <numero>1234 5678 9012 3456</numero>
             <nom>Nom Targeta</nom>
@@ -74,6 +131,6 @@
             <datacaducitat>12/25</datacaducitat>
             <cvv>123</cvv>
         </targeta>
-    </pagament>
+    </dadespagament>
     
 </factura>
