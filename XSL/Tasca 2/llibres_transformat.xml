@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<biblioteca>
+<llibre>
+<titol idioma="es">Conversación en la catedral</titol>
+<autor>Mario Vargas Llosa</autor>
+<dataPublicacio any="1969" />
+</llibre>
+<llibre>
+<titol idioma="es">Pantaleón y las visitadoras</titol>
+<autor>Mario Vargas Llosa</autor>
+<dataPublicacio any="1973" />
+</llibre>
+</biblioteca>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="llibres.xslt" type="text/xsl"?>
+<biblioteca>
+  <llibre>
+    <titol idioma="es">La vida está en otra parte</titol>
+    <autor>Milan Kundera</autor>
+    <dataPublicacio any="1973"/>
+  </llibre>
+  <llibre>
+    <titol idioma="es">Pantaleón y las visitadoras</titol>
+    <autor>Mario Vargas Llosa</autor>
+    <dataPublicacio any="1973"/>
+  </llibre>
+  <llibre>
+    <titol idioma="es">Conversación en la catedral</titol>
+    <autor>Mario Vargas Llosa</autor>
+    <dataPublicacio any="1969"/>
+  </llibre>
+  <llibre>
+    <titol idioma="en">Poems</titol>
+    <autor>Edgar Allan Poe</autor>
+    <dataPublicacio any="1890"/>
+  </llibre>  
+  <llibre>
+    <titol idioma="fr">Les Miserables</titol>
+    <autor>Victor Hugo</autor>
+    <dataPublicacio any="1862"/>
+  </llibre>  
+  <llibre>
+    <titol idioma="es">Plenilunio</titol>
+    <autor>Antonio Muñoz Molina</autor>
+    <dataPublicacio any="1997"/>
+  </llibre>  
+</biblioteca>

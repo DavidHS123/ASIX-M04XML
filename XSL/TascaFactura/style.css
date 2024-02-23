@@ -1,0 +1,104 @@
+@font-face {
+    font-family: FuenteFactura;
+    src: url(FreeSans.ttf);
+}
+h1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+body{
+    margin-left: 1.4%;
+    margin-right: 1.4%;
+    font-family: FuenteFactura;
+}
+.logo{
+    flex: 0.4;
+}
+.dadesFactura {
+    flex: 1;
+}
+.importFactura {
+    width: 100%;
+    border: 2px solid rgb(156, 104, 112);
+}
+
+.dadesClients{
+    margin-left: 1.4%;
+    flex: 1;
+
+}
+.resumenFactura{
+    flex: 1;
+}
+.tabla{
+    border: 2px solid rgb(156, 104, 112);
+}
+.dadesContracte{
+    border: 2px solid rgb(156, 104, 112);
+    font-size: 20px;
+}
+.infoConsum{
+    flex: 1;
+    border: 2px solid rgb(156, 104, 112);
+    margin-right: 20px;
+    padding: 10px;
+    position: relative;
+}
+.destiImport{
+    flex: 1;
+    border: 2px solid rgb(156, 104, 112);
+    padding: 10px;
+    height: 755px;
+}
+.dadesPagament{
+    border: 2px solid rgb(156, 104, 112);
+    position: relative;
+}
+.lectura{
+    flex: 1;
+}
+.consum{
+    flex: 1;
+}
+.centrar{
+    text-align: center;
+}
+.row{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img{
+    max-width: 100%;
+
+}
+.texto20px{
+    font-size: 20px;
+}
+.color{
+    color: #e697a4;
+}
+.tablaAmplio {
+    width: 100%;
+}
+p{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+    }
+    .logo, .dadesClients, .resumenFactura, .dadesFactura, .infoConsum, .destiImport {
+        flex: 1;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+}

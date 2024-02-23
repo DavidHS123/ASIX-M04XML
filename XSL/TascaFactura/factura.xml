@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <dadesfactura>
+        <numfactura>S23CON017610645</numfactura>
+        <data>17-06-2023</data>
+        <periodeconsum>
+            <inici>10-06-2023</inici>
+            <final>11-07-2023</final>
+        </periodeconsum>
+        <dataconsum>24-07-2023</dataconsum>
+        <logo>http://exemple.com/logo.png</logo>
+        <import>130€</import>
+    </dadesfactura>
+    
+    <dadesemissor cif="A12345678">
+        <nom>Empresa ABC</nom>
+        <cognom>Cognom Emissor</cognom>
+        <adreça>
+            <carrer>Carrer Receptor</carrer>
+            <numero>456</numero>
+            <pis>Pis</pis>
+            <porta>5</porta>
+            <cp>17000</cp>
+            <ciutat>Girona</ciutat>
+        </adreça>
+        <telefon>123456789</telefon>
+        <email>emissor@exemple.com</email>
+    </dadesemissor>
+    
+    <dadesreceptor nif="12345678A">
+        <nom>Client XYZ</nom>
+        <cognom>Cognom Receptor</cognom>
+        <adreça>
+            <carrer>Carrer Receptor</carrer>
+            <numero>456</numero>
+            <cp>17400</cp>
+            <ciutat>Breda</ciutat>
+        </adreça>
+        <telefon>987654321</telefon>
+        <email>receptor@exemple.com</email>
+    </dadesreceptor>
+    
+    <resumfactura>Resum de la factura...</resumfactura>
+    
+    <periodesconsum>
+        Gener 2023
+    </periodesconsum>
+    <periodesconsum>
+        Febrer 2023
+    </periodesconsum>
+    <periodesconsum>
+        Març 2023
+    </periodesconsum>
+    <periodesconsum>
+        Abril 2023
+    </periodesconsum>
+    
+    <missagepublicitari>Missatge publicitari aquí...</missagepublicitari>
+    
+    <!-- Comptat 
+    <pagament quantitat="150.75" estat="pagada" metodopagament="Comptat" />
+    -->
+    <!-- Transferència
+    <pagament quantitat="150.75" estat="pagada" metodopagament="Transferència">
+        <iban>CAT1234567890123456789</iban>
+    </pagament>
+    -->
+    <!-- Targeta -->
+    <pagament quantitat="150.75" estat="pagada" metodopagament="Targeta">
+        <targeta>
+            <numero>1234 5678 9012 3456</numero>
+            <nom>Nom Targeta</nom>
+            <cognom>Cognom Targeta</cognom>
+            <datacaducitat>12/25</datacaducitat>
+            <cvv>123</cvv>
+        </targeta>
+    </pagament>
+    
+</factura>

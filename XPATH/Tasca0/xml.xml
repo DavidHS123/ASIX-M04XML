@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<grupclasse>
+
+<persona id="45369852">
+
+<nom>Josep</nom>
+
+<cognom>Oliveres</cognom>
+
+<edat>25</edat>
+
+<poblacio>Girona</poblacio>
+
+</persona>
+
+<persona id="40659321">
+
+<nom>Joan</nom>
+
+<cognom>Alsina</cognom>
+
+<edat>52</edat>
+
+<poblacio>Fornells</poblacio>
+
+</persona>
+
+</grupclasse>
