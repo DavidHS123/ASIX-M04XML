@@ -13,7 +13,7 @@
             <alt>logo</alt>
             <class>img</class>
         </logo>
-        <import>87,70€</import>
+        <import>300</import>
     </dadesfactura>
     
     <dadesemissor cif="A12345678">
@@ -32,23 +32,23 @@
     </dadesemissor>
     
     <resumfactura>
-        <potencia> 11,15€ </potencia>
-        <energia> 69,24€ </energia>
-        <impuesto> 0,44€ </impuesto>
-        <alquiler> 0,83€ </alquiler>
-        <otros> 1,86€ </otros>
-        <iva> 4,18€ </iva>
-        <total> 87,70€ </total>
+        <potencia>300</potencia>
+        <energia>300</energia>
+        <impuesto>0</impuesto>
+        <alquiler>300</alquiler>
+        <otros>250</otros>
+        <iva>2500</iva>
+        <total>300</total>
     </resumfactura>
 
     <dadesreceptor nif="12345678A">
         <nom>David</nom>
-        <cognom>Hidalgo Salinas</cognom>
+        <cognom> Hidalgo Salinas</cognom>
         <adreça>
             <carrer>Dolors Callol</carrer>
-            <numero>5</numero>
+            <numero> 5</numero>
             <cp>17400</cp>
-            <ciutat>Breda</ciutat>
+            <ciutat> Breda</ciutat>
             <provincia>Girona</provincia>
         </adreça>
         <telefon>987654321</telefon>
@@ -120,7 +120,7 @@
     <dadespagament quantitat="150.75" estat="pagada" metodopagament="Comptat" />
     -->
     <!-- Transferència -->
-    <dadespagament quantitat="150.75" estat="pagada" metodopagament="Transferencia">
+    <dadespagament quantitat="300" estat="pagada" metodopagament="Transferencia">
         <entitat>2100</entitat>
         <sucursal>0221</sucursal>
         <dc>21</dc>

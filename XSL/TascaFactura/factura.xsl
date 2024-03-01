@@ -16,9 +16,11 @@
     </xsl:template>
 
     <xsl:template match="factura">
+		<header>
         <div class="row">
             <xsl:apply-templates select="dadesfactura"/>
         </div>
+		</header>
         <div class="row">
             <xsl:apply-templates select="resumfactura"/>
             <xsl:apply-templates select="dadesreceptor"/>
@@ -29,6 +31,9 @@
             <xsl:apply-templates select="destiimport"/>
         </div>
         <xsl:apply-templates select="dadespagament"/>
+        <footer>
+            <p>Gràcies per la seva compra, <xsl:value-of select="dadesreceptor/empresa"/></p>
+        </footer>
     </xsl:template>
     
     <xsl:template match="dadesfactura">
@@ -40,8 +45,17 @@
                 <h1>DADES DE LA FACTURA DE ELECTRICIDAD</h1>
             </div>
             <div class="importFactura">
-                <p class="texto20px"><b>IMPORTE FACTURA: <xsl:value-of select="import"/></b></p>
-                <p>Nº factura: <xsl:value-of select="numfactura"/>emitida el <xsl:value-of select="data"/></p>
+                    <xsl:if test="import > 250">
+                        <p class="texto20px">
+                            <b class="vermell">IMPORTE FACTURA: <xsl:value-of select="import"/></b>
+                        </p>
+                    </xsl:if>
+                    <xsl:if test="not(import > 250)">
+                        <p class="texto20px">
+                            <b>IMPORTE FACTURA: <xsl:value-of select="import"/></b>
+                        </p>
+                    </xsl:if>
+                <p>Nº factura: <xsl:value-of select="numfactura"/> emitida el <xsl:value-of select="data"/></p>
                 <p>Periodo de consumo: <xsl:value-of select="periodeconsum/inici"/> a <xsl:value-of select="periodeconsum/final"/> (31 días)</p>
                 <p>Fecha de cargo: <xsl:value-of select="dataconsum"/></p>
             </div>
@@ -53,34 +67,104 @@
             <h1>RESUMEN DE LA FACTURA</h1>
             <div class="tabla">
                 <table class="tablaAmplio">
-                    <tr>
-                        <td>Por potencia contratada</td>
-                        <td><xsl:value-of select="potencia"/></td>
-                    </tr>
-                    <tr>
-                        <td>Por energía consumida</td>
-                        <td><xsl:value-of select="energia"/></td>
-                    </tr>
-                    <tr>
-                        <td>Impuesto electricidad</td>
-                        <td><xsl:value-of select="impuesto"/></td>
-                    </tr>
-                    <tr>
-                        <td>Alquiler del contador</td>
-                        <td><xsl:value-of select="alquiler"/></td>
-                    </tr>
-                    <tr>
-                        <td>Otros</td>
-                        <td><xsl:value-of select="otros"/></td>
-                    </tr>
-                    <tr>
-                        <td>IVA normal</td>
-                        <td><xsl:value-of select="iva"/></td>
-                    </tr>
-                    <tr>
-                        <td><b>TOTAL IMPORTE FACTURA</b></td>
-                        <td><b><xsl:value-of select="total"/></b></td>
-                    </tr>
+                    <xsl:if test="potencia != 0">
+                        <xsl:if test="potencia >= 250">
+                            <tr>
+                                <td><p class="vermell">Por potencia contratada</p></td>
+                                <td><p class="vermell"><xsl:value-of select="potencia"/></p></td>
+                            </tr>
+                        </xsl:if>
+                        <xsl:if test="not(potencia >= 250)">
+                            <tr>
+                                <td><p>Por potencia contratada</p></td>
+                                <td><p><xsl:value-of select="potencia"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="energia != 0">
+                        <xsl:if test="energia >= 250">
+                            <tr>
+                                <td><p class="vermell">Por energía consumida</p></td>
+                                <td><p class="vermell"><xsl:value-of select="energia"/></p></td>
+                            </tr>
+                        </xsl:if>
+                        <xsl:if test="not(energia >= 250)">
+                            <tr>
+                                <td><p>Por energía consumida</p></td>
+                                <td><p><xsl:value-of select="energia"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="impuesto != 0">
+                        <xsl:if test="impuesto >= 250">
+                            <tr>
+                                <td><p class="vermell">Impuesto electricidad</p></td>
+                                <td><p class="vermell"><xsl:value-of select="impuesto"/></p></td>
+                            </tr>
+                        </xsl:if>
+                        <xsl:if test="not(impuesto >= 250)">
+                            <tr>
+                                <td><p>Impuesto electricidad</p></td>
+                                <td><p><xsl:value-of select="impuesto"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="alquiler != 0">
+                        <xsl:if test="alquiler >= 250">
+                            <tr>
+                                <td><p class="vermell">Alquiler del contador</p></td>
+                                <td><p class="vermell"><xsl:value-of select="alquiler"/></p></td>
+                            </tr>
+                        </xsl:if>
+                        <xsl:if test="not(alquiler >= 250)">
+                            <tr>
+                                <td><p>Alquiler del contador</p></td>
+                                <td><p><xsl:value-of select="alquiler"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="otros != 0">
+                        <xsl:if test="otros >= 250">
+                        <tr>
+                            <td><p class="vermell">Otros</p></td>
+                            <td><p class="vermell"><xsl:value-of select="otros"/></p></td>
+                        </tr>
+                        </xsl:if>
+                        <xsl:if test="not(otros >= 250)">
+                            <tr>
+                                <td><p>Otros</p></td>
+                                <td><p><xsl:value-of select="otros"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="iva != 0">
+                        <xsl:if test="iva >= 250">
+                        <tr>
+                            <td><p class="vermell">IVA normal</p></td>
+                            <td><p class="vermell"><xsl:value-of select="iva"/></p></td>
+                        </tr>
+                        </xsl:if>
+                        <xsl:if test="not(iva >= 250)">
+                            <tr>
+                                <td><p>IVA normal</p></td>
+                                <td><p><xsl:value-of select="iva"/></p></td>
+                            </tr>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="total != 0">
+                        <xsl:if test="total >= 250">
+                            <tr>
+                                <td><p><b class="vermell">TOTAL IMPORTE FACTURA</b></p></td>
+                                <td><p><b class="vermell"><xsl:value-of select="total"/></b></p></td>
+                            </tr>
+                            </xsl:if>
+                            <xsl:if test="not(total >= 250)">
+                            <tr>
+                                <td><p><b>TOTAL IMPORTE FACTURA</b></p></td>
+                                <td><p><b><xsl:value-of select="total"/></b></p></td>
+                            </tr>
+                            </xsl:if>
+                    </xsl:if>
                 </table>
             </div>
         </div>
@@ -92,6 +176,16 @@
             <p><xsl:value-of select="adreça/carrer"/> <xsl:value-of select="adreça/numero"/></p>
             <p><xsl:value-of select="adreça/cp"/> <xsl:value-of select="adreça/ciutat"/></p>
             <p><xsl:value-of select="adreça/provincia"/></p>
+            <p>Nom Empresa: <xsl:value-of select="empresa"/></p>
+            <xsl:if test="email">
+                <p>Email: <xsl:value-of select="email"/></p>
+            </xsl:if>
+            <xsl:if test="telefon">
+                <p>Teléfono: <xsl:value-of select="telefon"/></p>
+            </xsl:if>
+            <xsl:if test="web">
+                <p> Web: <xsl:value-of select="web"/></p>
+            </xsl:if>
             <img src="{barras/src}" alt="{barras/alt}" class="{barras/class}"/>
         </div>
     </xsl:template>
@@ -179,10 +273,15 @@
             <div class="dadesPagament">
                 <xsl:choose>
                     <xsl:when test="@estat = 'pagada'">
-                        <p>Estat de la factura: pagada</p>
+                        <p>Estat de la factura: Pagada</p>
+                        <xsl:if test="@quantitat > 250">
+                            <p class="vermell"><b>Quantitat: <xsl:value-of select="@quantitat"/></b></p>
+                        </xsl:if>
+                        <xsl:if test="not(@quantitat > 250)">
+                        <p>Quantitat: <xsl:value-of select="@quantitat"/></p>
+                        </xsl:if>
                         <xsl:choose>
                             <xsl:when test="@metodopagament = 'Targeta'">
-                                <p>Quantitat: <xsl:value-of select="@quantitat"/></p>
                                 <p>Forma de pago: Targeta </p>
                                 <p>Número de targeta: <xsl:value-of select="targeta/numero"/></p>
                                 <p>Nom: <xsl:value-of select="targeta/nom"/></p>

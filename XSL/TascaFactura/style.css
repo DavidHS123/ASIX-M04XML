@@ -92,7 +92,9 @@ p{
     margin-left: 6px;
     margin-right: 10px;
 }
-
+.vermell{
+    color: red;
+}
 @media screen and (max-width: 1000px) {
     .row {
         flex-direction: column;
