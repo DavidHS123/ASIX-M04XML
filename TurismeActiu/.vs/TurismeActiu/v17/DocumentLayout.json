@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\",
+  "WorkspaceRootPath": "C:\\Users\\deivi\\Desktop\\ASIX\\ASIX-M04XML\\TurismeActiu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrackingMarquesString-masterAlumne\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrackingMarquesString-masterAlumne\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deivi\\Desktop\\ASIX\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrackingMarquesString-masterAlumne\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml",
-              "RelativeDocumentMoniker": "TrackingMarquesString-masterAlumne\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml",
-              "RelativeToolTip": "TrackingMarquesString-masterAlumne\\MainPage.xaml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T12:50:27.029Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "TrackingMarquesString-masterAlumne\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\deivi\\OneDrive\\Escritorio\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MainPage.xaml.cs",
-              "RelativeToolTip": "TrackingMarquesString-masterAlumne\\MainPage.xaml.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAawEsAAAAxAAAA",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\deivi\\Desktop\\ASIX\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TrackingMarquesString-masterAlumne\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\deivi\\Desktop\\ASIX\\ASIX-M04XML\\TurismeActiu\\TrackingMarquesString-masterAlumne\\MauiProgram.cs",
+              "RelativeToolTip": "TrackingMarquesString-masterAlumne\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T12:34:58.784Z",
+              "WhenOpened": "2024-04-04T16:14:01.344Z",
               "EditorCaption": ""
             }
           ]

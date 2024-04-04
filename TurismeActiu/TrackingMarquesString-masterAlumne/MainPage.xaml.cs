@@ -132,7 +132,7 @@ public partial class MainPage : ContentPage
             List<PuntRuta> puntsRuta = await conn.Table<PuntRuta>().Where(w => w.RutaId == ruta.Id).ToListAsync();
 
             string xml = string.Empty;
-            xml = "\t<ruta>\r\n";
+            xml = "<ruta>\r\n";
             //Creem els elements de la ruta
             xml = xml + "<nom>" + ruta.Nom + "</nom>\r\n" +
                 "<trackpoints>\r\n"; /*** AQUI HAS DE MODIFICAR EL CODI ***/
@@ -177,7 +177,7 @@ public partial class MainPage : ContentPage
             }
             xml = xml + "</puntsinteres>\r\n";/*** AQUI HAS DE MODIFICAR EL CODI ***/
 
-            xml = xml + "\t</ruta>\r\n";
+            xml = xml + "</ruta>\r\n";
 
             string fitxer = $"ruta_{DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss")}";
             using var stream = new MemoryStream(Encoding.Default.GetBytes(xml));
