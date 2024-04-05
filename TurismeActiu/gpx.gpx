@@ -1,0 +1,88 @@
+<?xml version="1.0"?><gpx version="1.1" xmlns:gpx="http://www.topografix.com/GPX/1/1">
+<metadata>
+<name>Trackpoints i Punts d'Interès</name>
+</metadata>
+<trk>
+<name>Ruta</name>
+<trkseg>
+<trkpt lat="41.96390334516764" lon="2.8282210137695074">
+<ele>172</ele>
+<time>2024-04-02T12:06:28Z</time>
+</trkpt>
+<trkpt lat="41.964036" lon="2.8282148">
+<ele>147.1999969482422</ele>
+<time>2024-04-02T12:07:28Z</time>
+</trkpt>
+<trkpt lat="41.9640136" lon="2.8284812">
+<ele>146.29998779296875</ele>
+<time>2024-04-02T12:08:04Z</time>
+</trkpt>
+<trkpt lat="41.9641212" lon="2.8284063">
+<ele>152.1999969482422</ele>
+<time>2024-04-02T12:08:53Z</time>
+</trkpt>
+<trkpt lat="41.9642004" lon="2.828481">
+<ele>153.79998779296875</ele>
+<time>2024-04-02T12:09:53Z</time>
+</trkpt>
+<trkpt lat="41.9644388" lon="2.82844">
+<ele>152.89999389648438</ele>
+<time>2024-04-02T12:10:28Z</time>
+</trkpt>
+<trkpt lat="41.96455960627645" lon="2.829046044498682">
+<ele>190</ele>
+<time>2024-04-02T12:10:43Z</time>
+</trkpt>
+<trkpt lat="41.9644459" lon="2.8284101">
+<ele>153.79998779296875</ele>
+<time>2024-04-02T12:11:05Z</time>
+</trkpt>
+<trkpt lat="41.9646159" lon="2.8282421">
+<ele>146.29998779296875</ele>
+<time>2024-04-02T12:12:06Z</time>
+</trkpt>
+<trkpt lat="41.96453010197729" lon="2.8279641084372997">
+<ele>148</ele>
+<time>2024-04-02T12:12:49Z</time>
+</trkpt>
+<trkpt lat="41.96453102398664" lon="2.8279586602002382">
+<ele>160</ele>
+<time>2024-04-02T12:12:54Z</time>
+</trkpt>
+
+</trkseg>
+</trk>
+<wpt lat="41.96437374" lon="2.82817874">
+<name>escala</name>
+<ele>142.91748046875</ele>
+<time>2024-04-02T12:04:29Z</time>
+</wpt><wpt lat="41.96422003" lon="2.82828167">
+<name>rampa</name>
+<ele>151.40631103515625</ele>
+<time>2024-04-02T12:05:58Z</time>
+</wpt><wpt lat="41.9639918" lon="2.8282118">
+<name>pingpong</name>
+<ele>147.29998779296875</ele>
+<time>2024-04-02T12:06:35Z</time>
+</wpt><wpt lat="41.9639902" lon="2.8284146">
+<name>hort</name>
+<ele>156.29998779296875</ele>
+<time>2024-04-02T12:08:22Z</time>
+</wpt><wpt lat="41.96361282" lon="2.82887807">
+<name>pista volley</name>
+<ele>149.56976318359375</ele>
+<time>2024-04-02T12:09:23Z</time>
+</wpt><wpt lat="41.96414649" lon="2.8286829">
+<name>basket</name>
+<ele>159.710693359375</ele>
+<time>2024-04-02T12:10:50Z</time>
+</wpt><wpt lat="41.96465019" lon="2.82827143">
+<name>parking</name>
+<ele>146.224853515625</ele>
+<time>2024-04-02T12:11:49Z</time>
+</wpt><wpt lat="41.9643772" lon="2.8280905">
+<name>final</name>
+<ele>145.09999084472656</ele>
+<time>2024-04-02T12:13:04Z</time>
+</wpt>
+</gpx>
