@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruta>
+    <inici>
+        <datahora>2024-03-12T11:30:00Z</datahora>
+    </inici>
+    <final>
+        <datahora>2024-03-12T11:30:00Z</datahora>
+    </final>
+    <nom>Ruta Sant Miquel</nom>
+    <autor>David Hidalgo Salinas</autor>
+    <trackpoints>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+        <trackpoint>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+        </trackpoint>
+    </trackpoints>
+    <puntsinteres>
+        <pdi>
+            <nom>Riu Galligants</nom>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+            <img>
+    
+            </img>
+            <observacions>
+    
+            </observacions>
+        </pdi>
+        <pdi>
+            <nom>Riu Galligants</nom>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+            <img>
+    
+            </img>
+            <observacions>
+    
+            </observacions>
+        </pdi>
+        <pdi>
+            <nom>Riu Galligants</nom>
+            <coord>
+                <lat>12.34</lat>
+                <long>1.234</long>
+                <alt>123.4</alt>
+            </coord>
+            <datahora>2024-03-12T11:30:00Z</datahora>
+            <img>
+    
+            </img>
+            <observacions>
+    
+            </observacions>
+        </pdi>
+    </puntsinteres>
+</ruta>

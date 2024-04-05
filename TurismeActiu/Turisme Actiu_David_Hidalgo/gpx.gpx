@@ -1,0 +1,227 @@
+<?xml version="1.0"?><gpx version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<metadata>
+<name>Trackpoints i Punts d'Inter�s</name>
+</metadata>
+<trk xmlns="">
+<name>Ruta</name>
+<trkseg>
+<trkpt lat="41.9645209" lon="2.828436">
+<ele>156.1999969482422</ele>
+<time>2024-04-02T12:04:06Z</time>
+</trkpt>
+<trkpt lat="41.96437466" lon="2.82818175">
+<ele>142.52734375</ele>
+<time>2024-04-02T12:04:19Z</time>
+</trkpt>
+<trkpt lat="41.96437374" lon="2.82817874">
+<ele>142.91754150390625</ele>
+<time>2024-04-02T12:04:25Z</time>
+</trkpt>
+<trkpt lat="41.96427349" lon="2.8282853">
+<ele>141.5142822265625</ele>
+<time>2024-04-02T12:04:38Z</time>
+</trkpt>
+<trkpt lat="41.9642892" lon="2.8283294">
+<ele>149</ele>
+<time>2024-04-02T12:05:09Z</time>
+</trkpt>
+<trkpt lat="41.96424044" lon="2.82827343">
+<ele>148.32183837890625</ele>
+<time>2024-04-02T12:05:18Z</time>
+</trkpt>
+<trkpt lat="41.9639894" lon="2.8284174">
+<ele>146.1999969482422</ele>
+<time>2024-04-02T12:05:37Z</time>
+</trkpt>
+<trkpt lat="41.96422003" lon="2.82828167">
+<ele>151.40631103515625</ele>
+<time>2024-04-02T12:05:47Z</time>
+</trkpt>
+<trkpt lat="41.9640586" lon="2.8280956">
+<ele>147.1999969482422</ele>
+<time>2024-04-02T12:06:04Z</time>
+</trkpt>
+<trkpt lat="41.96408277" lon="2.82834036">
+<ele>141.30511474609375</ele>
+<time>2024-04-02T12:06:07Z</time>
+</trkpt>
+<trkpt lat="41.9640254" lon="2.82828131">
+<ele>142.82525634765625</ele>
+<time>2024-04-02T12:06:23Z</time>
+</trkpt>
+<trkpt lat="41.9640302" lon="2.828235">
+<ele>146.39999389648438</ele>
+<time>2024-04-02T12:07:11Z</time>
+</trkpt>
+<trkpt lat="41.96393582" lon="2.82831161">
+<ele>155.44354248046875</ele>
+<time>2024-04-02T12:07:17Z</time>
+</trkpt>
+<trkpt lat="41.96390068" lon="2.82831276">
+<ele>153.7515869140625</ele>
+<time>2024-04-02T12:07:20Z</time>
+</trkpt>
+<trkpt lat="41.96388724" lon="2.82827264">
+<ele>156.5108642578125</ele>
+<time>2024-04-02T12:07:26Z</time>
+</trkpt>
+<trkpt lat="41.9640482" lon="2.828135">
+<ele>147.1999969482422</ele>
+<time>2024-04-02T12:07:33Z</time>
+</trkpt>
+<trkpt lat="41.96370774" lon="2.82828796">
+<ele>147.533203125</ele>
+<time>2024-04-02T12:07:43Z</time>
+</trkpt>
+<trkpt lat="41.96371637" lon="2.82835321">
+<ele>147.93505859375</ele>
+<time>2024-04-02T12:07:48Z</time>
+</trkpt>
+<trkpt lat="41.96371447" lon="2.82841137">
+<ele>146.20465087890625</ele>
+<time>2024-04-02T12:07:52Z</time>
+</trkpt>
+<trkpt lat="41.963959" lon="2.8283481">
+<ele>156.29998779296875</ele>
+<time>2024-04-02T12:07:56Z</time>
+</trkpt>
+<trkpt lat="41.96370371" lon="2.82864183">
+<ele>145.44757080078125</ele>
+<time>2024-04-02T12:08:04Z</time>
+</trkpt>
+<trkpt lat="41.96375637" lon="2.82867775">
+<ele>145.53460693359375</ele>
+<time>2024-04-02T12:08:09Z</time>
+</trkpt>
+<trkpt lat="41.96374223" lon="2.82871753">
+<ele>146.03466796875</ele>
+<time>2024-04-02T12:08:14Z</time>
+</trkpt>
+<trkpt lat="41.96362227" lon="2.8287047">
+<ele>145.09320068359375</ele>
+<time>2024-04-02T12:08:37Z</time>
+</trkpt>
+<trkpt lat="41.96361282" lon="2.82887807">
+<ele>149.56976318359375</ele>
+<time>2024-04-02T12:08:48Z</time>
+</trkpt>
+<trkpt lat="41.9641331" lon="2.8282452">
+<ele>144.39999389648438</ele>
+<time>2024-04-02T12:09:11Z</time>
+</trkpt>
+<trkpt lat="41.9642099" lon="2.8283567">
+<ele>146.59999084472656</ele>
+<time>2024-04-02T12:09:51Z</time>
+</trkpt>
+<trkpt lat="41.96414649" lon="2.8286829">
+<ele>159.710693359375</ele>
+<time>2024-04-02T12:09:57Z</time>
+</trkpt>
+<trkpt lat="41.9644634" lon="2.8284489">
+<ele>156</ele>
+<time>2024-04-02T12:10:44Z</time>
+</trkpt>
+<trkpt lat="41.96453955" lon="2.82874215">
+<ele>165.287109375</ele>
+<time>2024-04-02T12:10:54Z</time>
+</trkpt>
+<trkpt lat="41.96450343" lon="2.82861096">
+<ele>159.1175537109375</ele>
+<time>2024-04-02T12:11:01Z</time>
+</trkpt>
+<trkpt lat="41.9643583" lon="2.8282565">
+<ele>145.89999389648438</ele>
+<time>2024-04-02T12:11:11Z</time>
+</trkpt>
+<trkpt lat="41.96460651" lon="2.82847073">
+<ele>151.7901611328125</ele>
+<time>2024-04-02T12:11:21Z</time>
+</trkpt>
+<trkpt lat="41.96462389" lon="2.82846544">
+<ele>149.05340576171875</ele>
+<time>2024-04-02T12:11:23Z</time>
+</trkpt>
+<trkpt lat="41.96464665" lon="2.82845413">
+<ele>149.17059326171875</ele>
+<time>2024-04-02T12:11:27Z</time>
+</trkpt>
+<trkpt lat="41.9645517" lon="2.8284618">
+<ele>156</ele>
+<time>2024-04-02T12:11:34Z</time>
+</trkpt>
+<trkpt lat="41.96470261" lon="2.82838825">
+<ele>146.49066162109375</ele>
+<time>2024-04-02T12:11:41Z</time>
+</trkpt>
+<trkpt lat="41.96470921" lon="2.82836768">
+<ele>149.25152587890625</ele>
+<time>2024-04-02T12:11:43Z</time>
+</trkpt>
+<trkpt lat="41.9646373" lon="2.8283094">
+<ele>146.29998779296875</ele>
+<time>2024-04-02T12:11:56Z</time>
+</trkpt>
+<trkpt lat="41.96479074" lon="2.82813369">
+<ele>146.42791748046875</ele>
+<time>2024-04-02T12:11:59Z</time>
+</trkpt>
+<trkpt lat="41.96479585" lon="2.828133">
+<ele>143.10162353515625</ele>
+<time>2024-04-02T12:12:04Z</time>
+</trkpt>
+<trkpt lat="41.9644412" lon="2.8282346">
+<ele>146.29998779296875</ele>
+<time>2024-04-02T12:12:29Z</time>
+</trkpt>
+<trkpt lat="41.9645137" lon="2.82820532">
+<ele>148.158935546875</ele>
+<time>2024-04-02T12:12:33Z</time>
+</trkpt>
+<trkpt lat="41.96465924" lon="2.8281113">
+<ele>137.5484619140625</ele>
+<time>2024-04-02T12:12:48Z</time>
+</trkpt>
+<trkpt lat="41.96451974" lon="2.82790667">
+<ele>146.76409912109375</ele>
+<time>2024-04-02T12:13:10Z</time>
+</trkpt>
+</trkseg>
+</trk>
+<wpt lat="41.9645209" lon="2.828436" xmlns="">
+<name></name>
+<ele>156.1999969482422</ele>
+<time>2024-04-02T12:04:03Z</time>
+</wpt><wpt lat="41.96437374" lon="2.82817874" xmlns="">
+<name>escala</name>
+<ele>142.91748046875</ele>
+<time>2024-04-02T12:04:29Z</time>
+</wpt><wpt lat="41.96422003" lon="2.82828167" xmlns="">
+<name>rampa</name>
+<ele>151.40631103515625</ele>
+<time>2024-04-02T12:05:58Z</time>
+</wpt><wpt lat="41.9639918" lon="2.8282118" xmlns="">
+<name>pingpong</name>
+<ele>147.29998779296875</ele>
+<time>2024-04-02T12:06:35Z</time>
+</wpt><wpt lat="41.9639902" lon="2.8284146" xmlns="">
+<name>hort</name>
+<ele>156.29998779296875</ele>
+<time>2024-04-02T12:08:22Z</time>
+</wpt><wpt lat="41.96361282" lon="2.82887807" xmlns="">
+<name>pista volley</name>
+<ele>149.56976318359375</ele>
+<time>2024-04-02T12:09:23Z</time>
+</wpt><wpt lat="41.96414649" lon="2.8286829" xmlns="">
+<name>basket</name>
+<ele>159.710693359375</ele>
+<time>2024-04-02T12:10:50Z</time>
+</wpt><wpt lat="41.96465019" lon="2.82827143" xmlns="">
+<name>parking</name>
+<ele>146.224853515625</ele>
+<time>2024-04-02T12:11:49Z</time>
+</wpt><wpt lat="41.9643772" lon="2.8280905" xmlns="">
+<name>final</name>
+<ele>145.09999084472656</ele>
+<time>2024-04-02T12:13:04Z</time>
+</wpt>
+</gpx>
